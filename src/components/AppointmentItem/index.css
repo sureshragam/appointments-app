@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.appointment {
+  list-style: none;
+  width: 300px;
+  height: 80px;
+  border-style: solid;
+  border-color: #b5b7c4;
+  border-radius: 15px;
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.appointment div > h1 {
+  font-size: 24px;
+  margin-top: 0px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  color: #171f46;
+}
+.appointment div > p {
+  font-size: 18px;
+  color: #b5b7c4;
+  margin-top: 0px;
+}
+.appointment > button {
+  border: none;
+  background-color: transparent;
+}
